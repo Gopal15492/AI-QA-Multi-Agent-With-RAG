@@ -10,6 +10,7 @@ import { DashboardPage } from '../src/pages/DashboardPage';
  *   OHRM_USERNAME / OHRM_PASSWORD
  */
 const USERNAME = process.env.OHRM_USERNAME ?? process.env.ORANGEHRM_USERNAME ?? 'Admin';
+
 const PASSWORD = process.env.OHRM_PASSWORD ?? process.env.ORANGEHRM_PASSWORD ?? 'admin123';
 
 test.describe('Dashboard - Overview', () => {
